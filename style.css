@@ -1,0 +1,122 @@
+body{
+    
+    background-color: yellow;
+    height:900px;
+    width:900px;
+        
+}
+#star5 {
+ margin: 50px 0;
+ position: relative;
+ display: block;
+ width: 0px;
+ height: 0px;
+ border-right: 100px solid transparent;
+ border-bottom: 70px solid black;
+ border-left: 100px solid transparent;
+ -moz-transform: rotate(35deg);
+ -webkit-transform: rotate(35deg);
+ -ms-transform: rotate(35deg);
+ -o-transform: rotate(35deg);
+}
+#star5:before {
+ border-bottom: 80px solid black;
+ border-left: 30px solid transparent;
+ border-right: 30px solid transparent;
+ position: absolute;
+ height: 0;
+ width: 0;
+ top: -45px;
+ left: -65px;
+ display: block;
+ content:"";
+ -webkit-transform: rotate(-35deg);
+ -moz-transform: rotate(-35deg);
+ -ms-transform: rotate(-35deg);
+ -o-transform: rotate(-35deg);
+}
+#star5:after {
+ position: absolute;
+ display: block;
+ top: 3px;
+ left: -105px;
+ width: 0px;
+ height: 0px;
+ border-right: 100px solid transparent;
+ border-bottom: 70px solid black;
+ border-left: 100px solid transparent;
+ -webkit-transform: rotate(-70deg);
+ -moz-transform: rotate(-70deg);
+ -ms-transform: rotate(-70deg);
+ -o-transform: rotate(-70deg); content:"";
+}
+#parallelogram {
+    width: 150px;
+    height: 100px;
+    -webkit-transform: skew(20deg);
+       -moz-transform: skew(20deg);
+         -o-transform: skew(20deg);
+    background: red;
+}
+
+
+#triangle {
+   width: 0; 
+   height: 0; 
+   border-bottom: 120px solid blue; 
+   border-left: 60px solid transparent; 
+   border-right: 60px solid transparent; 
+}
+        #rectangle {
+   width: 140px; 
+   height: 80px;
+   background: purple;
+}
+
+
+#parallelogram {
+   width: 130px; 
+   height: 75px;
+   background: green;
+   /* Skew */
+   -webkit-transform: skew(20deg); 
+   -moz-transform: skew(20deg); 
+   -o-transform: skew(20deg);
+   transform: skew(20deg);
+}
+
+#circle { 
+   width: 140px;
+   height: 140px;
+   background: grey; 
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+}
+
+
+#trapezium {
+    height: 0;
+    width: 120px;
+    border-bottom: 120px solid white;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+}
+
+#square {
+   width: 140px; 
+   height: 140px;
+   background: red;
+}
+
+#parallelogram {
+	width: 150px;
+	height: 100px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: green;
+    
+    float:right;
+}
+			
